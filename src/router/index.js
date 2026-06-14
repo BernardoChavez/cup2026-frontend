@@ -87,7 +87,9 @@ const routes = [
       { path: 'cu12', name: 'proto-cu12', component: () => import('../prototipos/CU12_GestionAcademica.vue') },
       { path: 'cu13', name: 'proto-cu13', component: () => import('../prototipos/CU13_Materias.vue') },
       { path: 'cu14', name: 'proto-cu14', component: () => import('../prototipos/CU14_ConciliarPagos.vue') },
-      { path: 'cu15', name: 'proto-cu15', component: () => import('../prototipos/CU15_Bitacora.vue') }
+      { path: 'cu15', name: 'proto-cu15', component: () => import('../prototipos/CU15_Bitacora.vue') },
+      { path: 'cu16', name: 'proto-cu16', component: () => import('../prototipos/CU16_EvaluarDocentes.vue') },
+      { path: 'cu17', name: 'proto-cu17', component: () => import('../prototipos/CU17_ComandosVoz.vue') }
     ]
   },
   {

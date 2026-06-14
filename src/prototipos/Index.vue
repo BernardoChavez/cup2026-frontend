@@ -27,7 +27,7 @@
       <!-- Sidebar Navigation -->
       <aside class="w-80 bg-slate-900 border-r border-slate-800 flex flex-col h-[calc(100vh-4rem)] sticky top-16">
         <div class="p-4 border-b border-slate-800/80">
-          <p class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Casos de Uso a Documentar (15)</p>
+          <p class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Casos de Uso a Documentar (17)</p>
         </div>
         <nav class="flex-1 overflow-y-auto p-3 space-y-1">
           <router-link
@@ -89,7 +89,9 @@ const useCases = ref([
   { id: 'CU12', path: 'cu12', title: 'Gestión Académica', desc: 'Años, periodos y cierres de ciclos', type: 'Parámetros' },
   { id: 'CU13', path: 'cu13', title: 'Gestionar Materias', desc: 'Códigos y planes de estudio', type: 'Parámetros' },
   { id: 'CU14', path: 'cu14', title: 'Conciliación de Pagos', desc: 'Comprobación de depósitos vs banco', type: 'Finanzas' },
-  { id: 'CU15', path: 'cu15', title: 'Registrar Bitácora', desc: 'Log transaccional y auditoría global', type: 'Administración' }
+  { id: 'CU15', path: 'cu15', title: 'Registrar Bitácora', desc: 'Log transaccional y auditoría global', type: 'Administración' },
+  { id: 'CU16', path: 'cu16', title: 'Evaluar Competencias Docentes', desc: 'Checklist de idoneidad y radar de perfil', type: 'Docentes' },
+  { id: 'CU17', path: 'cu17', title: 'Consultas por Comando de Voz', desc: 'Transcripción y filtro por micrófono', type: 'Inteligencia' }
 ]);
 </script>
 
